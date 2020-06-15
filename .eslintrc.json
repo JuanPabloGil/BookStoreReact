@@ -4,12 +4,6 @@
     "es6": true,
     "jest": true
   },
-  "parserOptions": {
-    "ecmaFeatures": {
-        "jsx": true,
-        "modules": true
-    }
-  },
   "extends": ["airbnb", "plugin:react/recommended"],
   "plugins": ["react"],
   "rules": {
