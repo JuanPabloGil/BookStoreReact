@@ -37,7 +37,7 @@ const BooksForm = () => {
   const SubmitData =(e) =>{
     e.preventDefault();
 
-    if (title.trim === ""){
+    if (title.trim() === ""){
       HandleError(true);
       return
     }
