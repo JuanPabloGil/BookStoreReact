@@ -8,12 +8,18 @@ const BooksList = () => {
     <div>
       <h1>BooksList</h1>
       <table>
-        <tr>
+        <thead>
+          <tr>
           <th>Title</th>
           <th>Category</th>
           <th>ID</th>
-        </tr>
-        {books.map((book) => <Book  book={book}/>)}
+        </tr>  
+        </thead>
+        
+        <tbody>
+          {books.map((book) => <Book key={book.id} book={book}/>)}
+        </tbody>
+        
         
       </table>
     </div>
