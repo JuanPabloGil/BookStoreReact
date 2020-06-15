@@ -1,12 +1,12 @@
 import React from 'react';
-import BooksForm from './BooksForm'
-import BooksList from './BooksList'
+import BooksForm from './BooksForm';
+import BooksList from './BooksList';
 
 function App() {
   return (
     <div className="App">
-      <BooksList/>
-      <BooksForm/>
+      <BooksList />
+      <BooksForm />
     </div>
   );
 }
