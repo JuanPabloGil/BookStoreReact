@@ -2,7 +2,7 @@ import React from 'react';
 import {useSelector} from 'react-redux'
 import {useDispatch} from 'react-redux'
 import {removeBook} from '../actions'
-import Book from './Book'
+import Book from '../components/Book'
 
 
 const BooksList = () => {
