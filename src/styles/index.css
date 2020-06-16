@@ -1,3 +1,70 @@
 body {
-  color: black;
+  background: #f5f6fa !important;
+  min-height: 100vh;
 }
+
+.Bookstore-CMS {
+  height: 37px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.BOOKS {
+  width: 59px;
+  height: 16px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.CATEGORIES {
+  width: 105px;
+  height: 16px;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.panel-bg {
+  margin: 149px auto 188px auto;
+  width: 90%;
+  height: 1097px;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+
+.menuContainer {
+  padding: 24px 0 17px 100px;
+}
+
+.iconContainer {
+  margin-right: 99px;
+  width: 45px;
+  height: 45px;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+  color: #0290ff;
+}
+
+.headerMenu {
+  border-bottom: 3px solid  #f5f6fa;
+}
+
