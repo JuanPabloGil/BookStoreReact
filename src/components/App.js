@@ -1,9 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import BooksForm from '../containers/BooksForm';
 import BooksList from '../containers/BooksList';
-import CategoryFilter from './CategoryFilter'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import CategoryFilter from './CategoryFilter';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <h5 className="CATEGORIES">CATEGORY</h5>
           <CategoryFilter />
         </div>
-        <div className="iconContainer d-flex justify-content-center align-items-center"><FontAwesomeIcon icon={faUser}/></div>
+        <div className="iconContainer d-flex justify-content-center align-items-center"><FontAwesomeIcon icon={faUser} /></div>
 
       </header>
       <BooksList />
