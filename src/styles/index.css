@@ -5,7 +5,6 @@ body {
 
 .Bookstore-CMS {
   height: 37px;
-  font-family: Montserrat;
   font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
@@ -18,7 +17,6 @@ body {
 .BOOKS {
   width: 59px;
   height: 16px;
-  font-family: Montserrat;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -32,7 +30,6 @@ body {
   width: 105px;
   height: 16px;
   opacity: 0.5;
-  font-family: Montserrat;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -77,8 +74,8 @@ body {
   height: 170px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
-  background-color: #ffffff;
-  margin: 10px auto 10px auto ;
+  background-color: #fff;
+  margin: 10px auto 10px auto;
   padding: 32px 0 28px 27px;
 }
 
@@ -86,7 +83,6 @@ body {
   width: 49px;
   height: 18px;
   opacity: 0.5;
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
@@ -99,7 +95,6 @@ body {
 .title {
   width: 197px;
   height: 29px;
-  font-family: RobotoSlab;
   font-size: 22px;
   font-weight: bold;
   font-stretch: normal;
@@ -107,13 +102,12 @@ body {
   line-height: normal;
   letter-spacing: -0.2px;
   color: #121212;
-  margin-bottom: 0 ;
+  margin-bottom: 0;
 }
 
 .Suzanne-Collins {
   width: 93px;
   height: 19px;
-  font-family: RobotoSlab;
   font-size: 14px;
   font-weight: 300;
   font-stretch: normal;
@@ -129,7 +123,6 @@ body {
   border: none;
   width: 54px;
   height: 19px;
-  font-family: RobotoSlab;
   font-size: 14px;
   font-weight: 300;
 }
@@ -147,14 +140,13 @@ body {
 
 .titleAddBook {
   height: 24px;
-  font-family: Montserrat;
   font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.18px;
-  color: #888888;
+  color: #888;
 }
 
 .input {
@@ -162,7 +154,7 @@ body {
   height: 45px;
   border-radius: 6px;
   border: solid 1px #e8e8e8;
-  background-color: #ffffff;
+  background-color: #fff;
   text-indent: 15px;
 }
 
@@ -171,7 +163,7 @@ body {
   height: 45px;
   border-radius: 6px;
   border: solid 1px #e8e8e8;
-  background-color: #ffffff;
+  background-color: #fff;
   text-indent: 10px;
 }
 
@@ -180,7 +172,7 @@ body {
   height: 30px;
   border-radius: 6px;
   border: solid 1px #e8e8e8;
-  background-color: #ffffff;
+  background-color: #fff;
   text-indent: 10px;
 }
 
@@ -190,7 +182,6 @@ body {
   border-radius: 4px;
   background-color: #0290ff;
   border: none;
-  font-family: RobotoSlab;
   font-size: 13px;
   font-weight: bold;
   font-stretch: normal;
@@ -198,11 +189,10 @@ body {
   line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .complete {
-  font-family: Montserrat;
   font-size: 28px;
   font-weight: normal;
   font-stretch: normal;
