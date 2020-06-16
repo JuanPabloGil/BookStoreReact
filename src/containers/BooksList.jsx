@@ -3,6 +3,7 @@ import {useSelector} from 'react-redux'
 import {useDispatch} from 'react-redux'
 import {removeBook} from '../actions'
 import Book from '../components/Book'
+import CategoryFilter from '../components/CategoryFilter'
 
 
 const BooksList = () => {
@@ -16,6 +17,10 @@ const BooksList = () => {
   return (
     <div>
       <h1>BooksList</h1>
+        <div>
+          <CategoryFilter />
+        </div>
+
       <table>
         <thead>
           <tr>
