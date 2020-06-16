@@ -175,6 +175,15 @@ body {
   text-indent: 10px;
 }
 
+.select-category {
+  width: 285px;
+  height: 30px;
+  border-radius: 6px;
+  border: solid 1px #e8e8e8;
+  background-color: #ffffff;
+  text-indent: 10px;
+}
+
 .add-book {
   width: 184px;
   height: 45px;
@@ -190,4 +199,15 @@ body {
   letter-spacing: 0.5px;
   text-align: center;
   color: #ffffff;
+}
+
+.complete {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
 }

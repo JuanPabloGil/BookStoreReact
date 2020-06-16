@@ -15,7 +15,7 @@ const dispatch = useDispatch();
   const options = categories.map(category => <option key={category}  value={category} > {category} </option>  )
 
   return (
-        <select className="input-select" onChange={handleFilterChange} name="category" >
+        <select className="select-category" onChange={handleFilterChange} name="category" >
               {options}
         </select>
    );
