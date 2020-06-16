@@ -27,25 +27,8 @@ const BooksList = () => {
   }
 
   return (
-    <div>
-      <h1>BooksList</h1>
-      
-
-      <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Category</th>
-            <th>ID</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          {filterByCategory().map((book) => <Book key={book.id} book={book} handleRemoveBook={handleRemoveBook} />)}
-        </tbody>
-
-
-      </table>
+    <div className="BookList">
+        {filterByCategory().map((book) => <Book key={book.id} book={book} handleRemoveBook={handleRemoveBook} />)}
     </div>
 
   );
