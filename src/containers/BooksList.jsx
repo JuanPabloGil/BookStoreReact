@@ -8,12 +8,20 @@ import CategoryFilter from '../components/CategoryFilter'
 
 const BooksList = () => {
   const books = useSelector ( state => state.books);
+  const filter = useSelector ( state => state.filter);
+
   const dispatch = useDispatch();
 
   const handleRemoveBook = (id) => {
     dispatch(removeBook(id));
   }
-  
+  let currentBooks = []
+  if (filter === '') {
+    currentBooks = books.filter(book => book.category !== filter);
+  }else {
+    currentBooks = books.filter(book => book.category === filter);
+  }
+ 
   return (
     <div>
       <h1>BooksList</h1>
@@ -31,7 +39,7 @@ const BooksList = () => {
         </thead>
         
         <tbody>
-          {books.map((book) => <Book key={book.id} book={book} handleRemoveBook = { handleRemoveBook }/>)}
+          {currentBooks.map((book) => <Book key={book.id} book={book} handleRemoveBook = { handleRemoveBook }/>)}
         </tbody>
         
         
